@@ -1,0 +1,30 @@
+.backgrnd,
+.div {
+    background-image: url(/assets/me.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    font-family: 'Numans', sans-serif;
+    background-position: center;
+    position: relative;
+    z-index: 2x;
+}
+
+.title,
+.div {
+    position: absolute;
+    top: 0px;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    left: 50px;
+}
+
+.from,
+.div {
+    position: absolute;
+    font-size: 25px;
+    bottom: 40px;
+    right: 30px;
+    color: black;
+}
